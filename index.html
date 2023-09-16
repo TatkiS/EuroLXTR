@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Euro Logistics Xpress - лідер у перевезенні вантажів до 3,5 тонн в Чехії та Європі. Надійна логістика та економічні рішення для вашого бізнесу.">
+  <meta name="keywords" content="Euro Logistics Xpress, логістика, перевезення, Чехія, Європа, вантажі, доставка, експрес-доставка">
+  <meta http-equiv="Content-Language" content="uk">
+  <meta name="author" content="Euro Logistics Xpress">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Euro Logistics Xpress">
+  <meta property="og:description" content="Euro Logistics Xpress - лідер у перевезенні вантажів до 3,5 тонн в Чехії та Європі. Надійна логістика та економічні рішення для вашого бізнесу.">
+  <meta property="og:image" content="images/logo.png">
+  <title>Euro Logistics Xpress</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Приховати вміст на головній сторінці */
+    #about-us, #services, #contacts {
+      display: none;
+    }
+
+    /* Вставка стилів з іншого коду */
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('../images/background.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Стиль для кнопки перекладача */
+    #translate {
+      display: block;
+      width: 100px;
+      height: 30px;
+      background-color: #ccc;
+      border: 1px solid #000;
+      font-size: 12px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    /* Решта стилів залишаються незмінними */
+  </style>
+</head>
+<body id="home-page">
+  <header>
+    <img src="images/logo.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="services.html">Послуги</a></li>
+        <li><a href="contact.html">Контакти</a></li>
+      </ul>
+    </nav>
+    <!-- Код для Google Translate API на сторінці "Контакти" -->
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <div id="translate"></div>
+    <script>
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: 'uk', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'translate');
+      }
+    </script>
+    <!-- Кінець коду для Google Translate API -->
+  </header>
+  <main>
+    <!-- Вміст на головній сторінці -->
+    <h1>Головна</h1>
+    <p>Ваше привітання або інший вміст головної сторінки.</p>
+  </main>
+  <footer>
+    <!-- Вміст підвалу -->
+  </footer>
+
+  <!-- Ваш інший JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
